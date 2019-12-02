@@ -1,7 +1,7 @@
 require 'pry'
 
 class Artist
-  include evironment::InstanceMethod
+  include environment::InstanceMethod
 
   attr_accessor :name
   attr_reader :songs
